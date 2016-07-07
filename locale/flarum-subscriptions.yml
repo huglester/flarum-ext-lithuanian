@@ -4,51 +4,51 @@ flarum-subscriptions:
   # UNIQUE KEYS - The following keys are used in only one location each.
   ##
 
-  # Translations in this namespace are used by the forum user interface.
+  # Strings in this namespace are used by the forum user interface.
   forum:
 
-    # These translations are displayed as tooltips for discussion badges.
+    # These strings are displayed as tooltips for discussion badges.
     badge:
       following_tooltip: => flarum-subscriptions.ref.following
       ignoring_tooltip: => flarum-subscriptions.ref.ignoring
 
-    # These translations are used by the discussion control buttons.
+    # These strings are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Nebesekti
+      unignore_button: Nebeignoruoti
 
-    # These translations are used on the index page, peripheral to the discussion list.
+    # These strings are used on the index page, peripheral to the discussion list.
     index:
       following_link: => flarum-subscriptions.ref.following
 
-    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    # These strings are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} parašė"
 
-    # These translations are used in the Settings page.
+    # These strings are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: "Automatiškai sekti temas kurias pakomentuoju"
+      notify_new_post_label: "Kažkas parašė į temą, kurią aš seku"
 
-    # These translations are used in the subscription menu displayed to the right of the post stream.
+    # These strings are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Be notified of all replies.
+      following_text: Pranešti apie visus atsakymus.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Niekada nepranešti. Paslėpti iš temų sąrašo.
+      not_following_button: Nesekti
+      not_following_text: "Pranešti tik kai @mentioned."
+      notify_email_tooltip: Gauti el. laišką kai atsiranda naujų atsakymų
+      notify_alert_tooltip: Gauti forumo pranešimą kai atsiranda naujų atsakymų
 
   ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  # REUSED STRINGS - These keys should not be used directly in code!
   ##
 
-  # Translations in this namespace are referenced by two or more unique keys.
+  # Strings in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Sekti
+    following: Sekama
+    ignoring: Ignoruojama
