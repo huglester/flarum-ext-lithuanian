@@ -142,9 +142,9 @@ core:
       title: "=> core.ref.change_password"
     composer: 
       close_tooltip: Uždaryti
-      exit_full_screen_tooltip: "Exit Full Screen"
-      full_screen_tooltip: "Full Screen"
-      minimize_tooltip: Minimize
+      exit_full_screen_tooltip: "Sumažinti"
+      full_screen_tooltip: "Išskleisti"
+      minimize_tooltip: Paslėpti
     composer_discussion: 
       body_placeholder: "Rašyti pranešimą..."
       discard_confirmation: "Nebaigei rašyti pranešimo. Ar nori jį panaikinti?"
@@ -233,8 +233,8 @@ core:
       edit_button: "=> core.ref.edit"
       restore_button: "=> core.ref.restore"
     post_scrubber: 
-      now_link: "Prieš akimirką"
-      original_post_link: "Orginalus pranešimas"
+      now_link: "Pabaiga"
+      original_post_link: "Pradžia"
       unread_text: "{count} neperskaityti"
       viewing_text: "{index} iš {count} pranešimo|{index} iš {count} pranešimų"
     post_stream: 
