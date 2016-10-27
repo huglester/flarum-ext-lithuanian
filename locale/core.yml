@@ -225,6 +225,7 @@ core:
       title: "=> core.ref.notifications"
       tooltip: "=> core.ref.notifications"
     post: 
+      edited_text: Redaguota
       edited_tooltip: "{username} redagavo {ago}"
       number_tooltip: "#{number} pranešimas"
     post_controls: 
