@@ -1,16 +1,18 @@
 {
-    "name": "yiin/flarum-ext-lithuanian",
+    "name": "pavelas/flarum-ext-lithuanian",
+    "version": "1.0.0",
     "type": "flarum-extension",
-    "description": "Lithuanian language pack.",
+    "description": "Lithuanian language pack for specific forum.",
     "keywords": ["locale"],
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Pavelas/flarum-ext-lithuanian.git"
+    },
     "require": {
-        "flarum/core": "^0.1.0-beta.5"
+        "flarum/core": "^0.1.0-beta.6"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        },
         "flarum-extension": {
             "title": "Lithuanian",
             "icon": {
