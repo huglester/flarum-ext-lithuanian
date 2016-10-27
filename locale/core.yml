@@ -272,7 +272,7 @@ core:
       avatar_upload_button: Įkelti
       bio_placeholder: "Parašyk ką nors apie save"
       discussions_link: "=> core.ref.discussions"
-      joined_date_text: "Prisijungė {ago}"
+      joined_date_text: "Užsiregistravo {ago}"
       online_text: Prisijungęs
       posts_link: Pranešimai
       posts_load_more_button: "=> core.ref.load_more"
