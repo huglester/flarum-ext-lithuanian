@@ -1,8 +1,8 @@
 {
     "name": "pavelas/flarum-ext-lithuanian",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "flarum-extension",
-    "description": "Lithuanian language pack for specific forum.",
+    "description": "Lithuanian language pack for specific flarum forum.",
     "keywords": ["locale"],
     "license": "MIT",
     "repository": {
