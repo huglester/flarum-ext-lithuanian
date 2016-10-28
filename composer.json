@@ -1,6 +1,6 @@
 {
     "name": "pavelas/flarum-ext-lithuanian",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "flarum-extension",
     "description": "Lithuanian language pack for specific flarum forum.",
     "keywords": ["locale"],
