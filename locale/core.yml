@@ -166,7 +166,7 @@ core:
       delete_button: "=> core.ref.delete"
       delete_confirmation: "Ar tikrai nori ištrinti šią temą?"
       delete_forever_button: "=> core.ref.delete_forever"
-      log_in_to_reply_button: "Rašyti į temą galima tik prisijungus"
+      log_in_to_reply_button: "Atsakyti"
       rename_button: Pervadinti
       rename_text: "Įrašyk naują temos pavadinimą:"
       reply_button: "=> core.ref.reply"
