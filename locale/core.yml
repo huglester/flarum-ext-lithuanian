@@ -53,17 +53,19 @@ core:
     loading: 
       title: "Please Wait..."
     nav: 
-      appearance_button: Appearance
+      appearance_button: Atvaizdavimas
       appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
+      basics_button: Pagringiniai
       basics_text: "Set your forum title, language, and other basic settings."
       dashboard_button: Dashboard
       dashboard_text: "Your forum at a glance."
-      extensions_button: Extensions
+      extensions_button: Plietiniai
       extensions_text: "Add extra functionality to your forum and make it your own."
-      permissions_button: Permissions
+      permissions_button: Teisės
       permissions_text: "Configure who can see and do what."
-    permissions: 
+      email_button: "El. paštas"
+      email_text: "El. pašto nustatymai"
+    permissions:
       allow_post_editing_label: "Allow post editing"
       allow_renaming_label: "Allow renaming"
       create_heading: Create
@@ -90,6 +92,20 @@ core:
       members_button: "=> core.group.members"
       signup_closed_button: Closed
       signup_open_button: Open
+    email:
+      account_heading: SMTP Account
+      addresses_heading: Addresses
+      driver_label: Driver
+      encryption_label: Encryption
+      from_label: Siuntėjas
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: Portas
+      server_heading: SMTP Server
+      submit_button: => core.ref.save_changes
+      text: => core.admin.nav.email_text
+      username_label: => core.ref.username
   basic: 
     javascript_disabled_message: "Šiuo forumu geriausia naudotis su nauja naršykle ir įjungtu JavaScipt."
     load_error_message: "Nepavyko pakrauti forumo."
@@ -130,7 +146,7 @@ core:
           
           Jeigu tai padarei netu, gali tiesiog ignoruoti šį laišką ir viskas bus kaip buvę.
       subject: "Slaptažodžio atkūrimas"
-  forum: 
+  forum:
     change_email: 
       confirmation_message: "=> core.ref.confirmation_email_sent"
       dismiss_button: "=> core.ref.okay"
@@ -203,7 +219,8 @@ core:
       mark_all_as_read_tooltip: "=> core.ref.mark_all_as_read"
       refresh_tooltip: Atnaujinti
       start_discussion_button: "Kurti temą"
-    index_sort: 
+      mark_all_as_read_confirmation: "Pažymėti viską kaip perskaitytą?"
+    index_sort:
       latest_button: Paskutinės
       newest_button: Naujausios
       oldest_button: Seniausios
@@ -218,6 +235,7 @@ core:
       submit_button: "=> core.ref.log_in"
       title: "=> core.ref.log_in"
       username_or_email_placeholder: "Prisijungimo vardas arba el. paštas"
+      remember_me_label: "Prisiminti mane"
     notifications: 
       discussion_renamed_text: "{username} pakeitė temos pavadinimą"
       empty_text: "Nėra jokių naujų pranešimų"
@@ -277,12 +295,17 @@ core:
       posts_link: Pranešimai
       posts_load_more_button: "=> core.ref.load_more"
       settings_link: "=> core.ref.settings"
+      posts_empty_text: "Nėra pradėtų temų"
+      in_discussion_text: "Aptariamos temos"
     user_controls: 
       button: Valdymas
       delete_button: "=> core.ref.delete"
       delete_confirmation: "Ar tikrai nori ištrinti šį narį? Visos jo temos ir pranešimai taip pat bus ištrinti."
       edit_button: "=> core.ref.edit"
-  group: 
+    user_email_confirmation:
+      alert_message: "Prašome patvirtinti paskyra"
+      resend_button: "Siųsti laišką pakartotinai"
+  group:
     admin: Administratorius
     admins: Administratoriai
     guest: Svečias
