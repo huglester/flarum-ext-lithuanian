@@ -61,15 +61,15 @@ flarum-tags:
       choose_secondary_placeholder: "Pasirink dar 1 žymę|Pasirink dar {count} žymes"
       edit_title: "Redaguoti temos {title} žymes"
       submit_button: => core.ref.okay
-      title: Pasirink savo temos žymes
+      title: Pasirink savo temos kategoriją
 
     # These strings are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Pasirinkti žymes
+      choose_tags_link: Pasirinkti kategoriją
 
     # These strings are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Redaguoti žymes
+      edit_tags_button: Redaguoti kategorijas
 
     # These strings are used on the index page, peripheral to the discussion list.
     index:
