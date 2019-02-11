@@ -1,6 +1,5 @@
 {
     "name": "huglester/flarum-ext-lithuanian",
-    "version": "1.0.3",
     "type": "flarum-extension",
     "description": "Lithuanian language pack for specific flarum forum.",
     "keywords": ["locale"],
