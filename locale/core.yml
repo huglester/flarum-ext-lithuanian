@@ -83,7 +83,7 @@ core:
       sign_up_label: "Sign up"
       start_discussions_label: "Start discussions"
       view_discussions_label: "View discussions"
-    permissions_controls: 
+    permissions_controls:
       allow_indefinitely_button: Indefinitely
       allow_some_minutes_button: "For {count} minute|For {count} minutes"
       allow_ten_minutes_button: "For 10 minutes"
@@ -106,77 +106,78 @@ core:
       submit_button: => core.ref.save_changes
       text: => core.admin.nav.email_text
       username_label: => core.ref.username
-  basic: 
+  basic:
     javascript_disabled_message: "Šiuo forumu geriausia naudotis su nauja naršykle ir įjungtu JavaScipt."
     load_error_message: "Nepavyko pakrauti forumo."
     loading_text: Kraunama...
     next_page_button: "Kitas puslapis"
     previous_page_button: "Ankstesnis puslapis"
-  email: 
-    activate_account: 
+  email:
+    activate_account:
       body: |
           Labas {username}!
-          
+
           Kažkas (tikiuosi, kad Tu!) užsiregistravo {forum} su šiuo el. pašto adresu.
-          
+
           Jeigu tai Tu, paprasčiausiai paspausk ant žemiau pateiktos nuorodos, ir tavo registracija bus patvirtinta:
           {url}
-          
+
           Jeigu niekur nesiregistravai, gali tiesiog ignoruoti šį laišką.
       subject: "Naujos registracijos patvirtinimas"
-    confirm_email: 
+    confirm_email:
       body: |
           Labas {username}!
-          
+
           Kažkas (tikiuosi, kad Tu!) pakeitė savo el. pašto adresą {forum} į šį.
-          
+
           Jeigu tai Tu, paprasčiausiai paspausk ant žemiau pateiktos nuorodos, ir tavo naujas el. pašto adresas bus patvirtinta:
           {url}
-          
+
           Jeigu ne, gali tiesiog ignoruoti šį laišką.
       subject: "Naujo el. pašto patvirtinimas"
-    reset_password: 
+    reset_password:
       body: |
           Labas {username}!
-          
+
            Kažkas (tikiuosi, kad Tu!) paprašė slaptažodžio atkūrimo nuorodos {forum}.
-          
+
           Jeigu tai Tu, paprasčiausiai paspausk ant žemiau pateiktos nuorodos norėdamas nustatyti naują slaptažodį:
           {url}
-          
+
           Jeigu tai padarei netu, gali tiesiog ignoruoti šį laišką ir viskas bus kaip buvę.
       subject: "Slaptažodžio atkūrimas"
   forum:
-    change_email: 
+    change_email:
+      confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: "=> core.ref.confirmation_email_sent"
       dismiss_button: "=> core.ref.okay"
       submit_button: "=> core.ref.save_changes"
       title: "=> core.ref.change_email"
-    change_password: 
+    change_password:
       send_button: "Siųsti slaptažodžio atkūrimo laišką"
       text: "Paspausk mygtuką žemiau ir patikrink savo el. pašte atėjusią nuorodą slaptažodžio pakeitimui."
       title: "=> core.ref.change_password"
-    composer: 
+    composer:
       close_tooltip: Uždaryti
       exit_full_screen_tooltip: "Sumažinti"
       full_screen_tooltip: "Išskleisti"
       minimize_tooltip: Paslėpti
-    composer_discussion: 
+    composer_discussion:
       body_placeholder: "Rašyti pranešimą..."
       discard_confirmation: "Nebaigei rašyti pranešimo. Ar nori jį panaikinti?"
       submit_button: "Pradėti temą"
       title_placeholder: "Temos pavadinimas"
-    composer_edit: 
+    composer_edit:
       discard_confirmation: "Neišsaugojai pakeitimų. Ar nori juos panaikinti?"
       post_link: "{number} pranešimas temoje '{discussion}'"
       submit_button: "=> core.ref.save_changes"
-    composer_reply: 
+    composer_reply:
       body_placeholder: "=> core.ref.write_a_reply"
       discard_confirmation: "Neparašei atsakymo į temą. Ar nori jį panaikinti?"
       posted_message: "Atsakymas į temą parašytas sėkmingai."
       submit_button: "Rašyti atsakymą į temą"
       view_button: Peržiūrėti
-    discussion_controls: 
+    discussion_controls:
       cannot_reply_button: "Atsakyti negalima"
       cannot_reply_text: "Neturi teisių rašyti į šią temą."
       delete_button: "=> core.ref.delete"
@@ -187,25 +188,25 @@ core:
       rename_text: "Įrašyk naują temos pavadinimą:"
       reply_button: "=> core.ref.reply"
       restore_button: "=> core.ref.restore"
-    discussion_list: 
+    discussion_list:
       empty_text: "Kol kas čia nėra jokių temų. Kodėl gi tau nesukūrus naujos?"
       load_more_button: "=> core.ref.load_more"
       mark_as_read_tooltip: "Pažymėti kaip perskaitytą"
       replied_text: "{username} parašė {ago}"
       started_text: "{username} sukūrė temą {ago}"
-    edit_user: 
+    edit_user:
       email_label: "=> core.ref.email"
       password_label: "=> core.ref.password"
       submit_button: "=> core.ref.save_changes"
       username_label: "=> core.ref.username"
-    forgot_password: 
+    forgot_password:
       dismiss_button: "=> core.ref.okay"
       email_placeholder: "=> core.ref.email"
       email_sent_message: "Mes tau išsiuntėme laišką su nuoroda slaptažodžio atkūrimui. Patikrink šlamšto aplanką jeigu laiško vis dar negavai po keletos minučių."
       submit_button: "Atkurti slaptažodį"
       text: "Įrašyk savo el. pašto adresą, į kurį nusiųsime slaptažodžio atkūrimo nuorodą."
       title: "Forgot Password"
-    header: 
+    header:
       admin_button: Administravimas
       log_in_link: "=> core.ref.log_in"
       log_out_button: "=> core.ref.log_out"
@@ -213,7 +214,7 @@ core:
       search_placeholder: "Paieška forume"
       settings_button: "=> core.ref.settings"
       sign_up_link: "=> core.ref.sign_up"
-    index: 
+    index:
       all_discussions_link: "=> core.ref.all_discussions"
       cannot_start_discussion_button: "Negalima kurti naujos temos"
       mark_all_as_read_tooltip: "=> core.ref.mark_all_as_read"
@@ -226,7 +227,7 @@ core:
       oldest_button: Seniausios
       relevance_button: Aktualiausios
       top_button: Populiariausios
-    log_in: 
+    log_in:
       confirmation_required_message: "Norint prisijungti, turi patvirtinti savo el. pašto adresą. Patvirtinimo laiškas yra išsiųstas į {email}. Jeigu laiško nerandi, patikrink šlamšto aplanką."
       forgot_password_link: "Pamiršai slaptažodį?"
       invalid_login_message: "Tavo prisijungimo duomenys yra neteisingi."
@@ -236,35 +237,35 @@ core:
       title: "=> core.ref.log_in"
       username_or_email_placeholder: "Prisijungimo vardas arba el. paštas"
       remember_me_label: "Prisiminti mane"
-    notifications: 
+    notifications:
       discussion_renamed_text: "{username} pakeitė temos pavadinimą"
       empty_text: "Nėra jokių naujų pranešimų"
       mark_all_as_read_tooltip: "=> core.ref.mark_all_as_read"
       title: "=> core.ref.notifications"
       tooltip: "=> core.ref.notifications"
-    post: 
+    post:
       edited_text: Redaguota
       edited_tooltip: "{username} redagavo {ago}"
       number_tooltip: "#{number} pranešimas"
-    post_controls: 
+    post_controls:
       delete_button: "=> core.ref.delete"
       delete_forever_button: "=> core.ref.delete_forever"
       edit_button: "=> core.ref.edit"
       restore_button: "=> core.ref.restore"
-    post_scrubber: 
+    post_scrubber:
       now_link: "Pabaiga"
       original_post_link: "Pradžia"
       unread_text: "{count} neperskaityti"
       viewing_text: "{index} iš {count} pranešimo|{index} iš {count} pranešimų"
-    post_stream: 
+    post_stream:
       discussion_renamed_text: "{username} changed the title from {old} to {new}."
       reply_placeholder: "=> core.ref.write_a_reply"
       time_lapsed_text: "{period} later"
-    search: 
+    search:
       all_discussions_button: "Ieškoti \"{query}\" visose temose"
       discussions_heading: "=> core.ref.discussions"
       users_heading: Nariai
-    settings: 
+    settings:
       account_heading: Paskyra
       change_email_button: "=> core.ref.change_email"
       change_password_button: "=> core.ref.change_password"
@@ -275,7 +276,7 @@ core:
       privacy_disclose_online_label: "Rodyti kitiems kada aš esu prisijungęs"
       privacy_heading: Privatumas
       title: "=> core.ref.settings"
-    sign_up: 
+    sign_up:
       confirmation_message: "=> core.ref.confirmation_email_sent"
       dismiss_button: "=> core.ref.okay"
       email_placeholder: "=> core.ref.email"
@@ -285,7 +286,7 @@ core:
       title: "=> core.ref.sign_up"
       username_placeholder: "=> core.ref.username"
       welcome_text: "Labas, {username}!"
-    user: 
+    user:
       avatar_remove_button: Pašalinti
       avatar_upload_button: Įkelti
       bio_placeholder: "Parašyk ką nors apie save"
@@ -297,7 +298,7 @@ core:
       settings_link: "=> core.ref.settings"
       posts_empty_text: "Nėra pradėtų temų"
       in_discussion_text: "Aptariamos temos"
-    user_controls: 
+    user_controls:
       button: Valdymas
       delete_button: "=> core.ref.delete"
       delete_confirmation: "Ar tikrai nori ištrinti šį narį? Visos jo temos ir pranešimai taip pat bus ištrinti."
@@ -314,26 +315,28 @@ core:
     members: Nariai
     mod: Moderatorius
     mods: Moderatoriai
-  lib: 
-    badge: 
+  lib:
+    badge:
       hidden_tooltip: Paslėpta
     deleted_user_text: "[deleted]"
-    error: 
+    error:
       generic_message: "Oj! Kažkas blogai. Pabandyk perkrauti puslapį."
       not_found_message: "Nieko neradome :(."
       permission_denied_message: "Neturi teisių šiam veiksmui."
       rate_limit_exceeded_message: "Klaida: rate_limit_exceeded."
-    number_suffix: 
+    number_suffix:
       kilo_text: K
       mega_text: M
-    series: 
+    series:
       glue_text: ", "
       three_text: "{first}, {second}, ir {third}"
       two_text: "{first} ir {second}"
-  ref: 
+  ref:
     all_discussions: "Visos temos"
     change_email: "Keisti el. paštą"
     change_password: "Keisti slaptažodį"
+    color: Color                                 # Referenced by flarum-tags.yml
+    confirm_password: "Patvirtinti slaptažodį"
     confirmation_email_sent: "Išsiuntėme patvirtinimo laišką į {email}. Jeigu laiško nerandi, patikrink šlamšto aplanką."
     delete: Ištrinti
     delete_forever: "Ištrinti visam laikui"
