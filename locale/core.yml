@@ -304,7 +304,7 @@ core:
       delete_confirmation: "Ar tikrai nori ištrinti šį narį? Visos jo temos ir pranešimai taip pat bus ištrinti."
       edit_button: "=> core.ref.edit"
     user_email_confirmation:
-      alert_message: "Prašome patvirtinti paskyra"
+      alert_message: "Prašome patvirtinti paskyrą"
       resend_button: "Siųsti laišką pakartotinai"
   group:
     admin: Administratorius
