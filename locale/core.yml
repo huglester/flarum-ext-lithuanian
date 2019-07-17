@@ -273,7 +273,7 @@ core:
       notify_by_email_heading: "=> core.ref.email"
       notify_by_web_heading: "Asmeninė svetainė"
       notify_discussion_renamed_label: "Kažkas pakeitė mano temos pavadinimą"
-      privacy_disclose_online_label: "Rodyti kitiems kada aš esu prisijungęs"
+      privacy_disclose_online_label: "Rodyti kitiems kada aš esu prisijungęs/-usi"
       privacy_heading: Privatumas
       title: "=> core.ref.settings"
     sign_up:
@@ -292,7 +292,7 @@ core:
       bio_placeholder: "Parašyk ką nors apie save"
       discussions_link: "=> core.ref.discussions"
       joined_date_text: "Užsiregistravo {ago}"
-      online_text: Prisijungęs
+      online_text: Prisijungęs/-usi
       posts_link: Pranešimai
       posts_load_more_button: "=> core.ref.load_more"
       settings_link: "=> core.ref.settings"
